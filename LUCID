@@ -1,0 +1,32 @@
+ROUND 1 : Aptitude, Logical Reasoning and Technical questions(MCQ’s) – 90 mins
+(3 Sections - Each Section 30 mins)
+Questions from:
+1. Aptitude: Time and Work, Profit Loss, Train, Race and Game (10 Qns)
+2. Logical Reasoning: Find Odd one out in Figures, Find Next Figure (10 Qns)
+3. Technical: Basic C Sharp Qns(Conditional Statement, Loop Based Output Qns) and C++ OOPS Qns
+and HashMap related one qn. (10 Qns)
+ROUND 2 : Coding Round – I (60 mins)
+Given a positive number(N), print whether it is valid or not based on Conditions with ‘a’ value.
+G = N - (a)^ 2,where a € ( 1 to sqrt(N) )
+K^k = G , where k is positive number
+Input: 13
+Output: Valid – 3
+Explanation:
+If a=1, G = 13 – (1)^2 = 12
+1^1 = 1 != 12
+2^2 = 4 != 12
+3^3 = 27 != 12 so K
+k goes beyond G, we need to terminate.
+If a=2, G = 13 – (2)^2 = 9
+1^1 = 1 != 9
+2^2 = 4 != 9
+3^3 = 27 != 9 so K
+k goes beyond G, we need to terminate.
+If a=3, G = 13 – (3)^2 = 4
+1^1 = 1 != 4
+2^2 = 4 == 4
+Input: 60
+Output: Invalid
+
+
+
