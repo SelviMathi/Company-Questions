@@ -28,5 +28,53 @@ If a=3, G = 13 – (3)^2 = 4
 Input: 60
 Output: Invalid
 
+Solution
+#include <stdio.h>
+#include <math.h>
+#include <stdbool.h>
+
+// Function to check if G can be expressed as K^k
+bool isPower(int G) {
+    if (G <= 1) return true;
+
+    for (int K = 2; K <= sqrt(G); ++K) {
+        int power = K;
+        while (power < G) {
+            power *= K;
+        }
+        if (power == G) {
+            return true;
+        }
+    }
+    return false;
+}
+
+void checkValidNumber(int N) {
+    int sqrtN = (int)sqrt(N);
+    for (int a = 1; a <= sqrtN; ++a) {
+        int G = N - a * a;
+        if (G > 0 && isPower(G)) {
+            printf("Valid\n");
+            return;
+        }
+    }
+    printf("Invalid\n");
+}
+
+int main() {
+    int N;
+    printf("Enter a positive number N: ");
+    scanf("%d", &N);
+
+    if (N <= 0) {
+        printf("Invalid\n");
+    } else {
+        checkValidNumber(N);
+    }
+
+    return 0;
+}
+
+
 
 
