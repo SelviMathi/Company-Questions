@@ -9,6 +9,7 @@ int main() {
         for( j = 0; j < col; j++) 
             cin>> matrix[i][j] ;
     }
+
     int arr_row[row],arr_col[col];
     for(i=0;i<row;i++) arr_row[i]=1;
     for(j=0;j<col;j++) arr_col[j]=1;
