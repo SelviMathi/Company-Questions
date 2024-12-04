@@ -1,0 +1,28 @@
+1.Largest element in array
+Problem Statement: Given an array, we have to find the largest element in the array.
+Example :
+Input:
+ arr[] = {2,5,1,3,0};
+Output:
+ 5
+2.Second largest element in array
+Problem Statement: Given an array, find the second smallest and second largest element in the array. Print ‘-1’ in the event that either of them doesn’t exist.
+Example 1:
+Input:
+ [1,2,4,7,7,5]
+Output:
+Second Smallest : 2
+Second Largest : 5
+3.Missing number in array
+4.Check array is sorted
+5.Remove duplicates
+6.Left Rotate   
+7.Move zeroes to end
+8.Linear search
+Problem Statement: Given an array, and an element num the task is to find if num is present in the given array or not. If present print the index of the element or print -1.
+Example :
+Input: arr[]= 1 2 3 4 5, num = 3
+Output: 2
+Explanation: 3 is present in the 2nd index
+9.
+10.
