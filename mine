@@ -1,0 +1,8 @@
+********************
+if(System.out.printf("ICE"))
+Sout("ICE");
+else
+Sout("CREAM");
+************************
+
+
