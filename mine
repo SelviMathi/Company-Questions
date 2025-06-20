@@ -5,4 +5,26 @@ else
 Sout("CREAM");
 ************************
 
-
+Get 2 number and add and check it is prime if yes print 0 or else what is the min value to be a prime print it.
+public class Main {
+    public static void main(String[] args) {
+        int a=5,b=6,num=0;
+        int n;
+        while(true){
+            n=num+a+b;
+             if(prim(n)){
+            System.out.print(num);
+            return;
+             }
+        num++;
+        }
+                    }
+       static boolean prim(int num){ 
+          for (int i = 2; i < num; i++) {
+                if (num % i == 0) {
+                    return false;
+                    }
+        }
+        return true;
+       }
+}
